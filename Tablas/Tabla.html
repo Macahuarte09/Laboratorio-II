@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html >
+    <head>
+    </head>
+
+    <body>
+        <div id="contenedor">
+            <header>
+                <nav>
+                    <ul>
+
+                       <li> <a href="Productos.html"> Productos </a> </li>
+                       <li> <a href="Servicios.html"> Servicios </a> 
+                           <ul class="submenu">
+                               <li><a href="servicios1.html">Celulares</a></li>
+                               <li><a href="servicios2.html">Computadoras</a></li>
+                               <li><a href="servicios3.html">Notbook</a></li>
+                            </ul> 
+                        </li>                
+                       <li> <a href="Contacto.html"> Contacto </a> </li>
+
+                    </ul>        
+                </nav>
+            </header>
+
+            <main>
+
+                <h2> Primer Ejemplo</h2>               
+                <table>
+                    <caption> Listado de Celulares </caption>
+                    <thead>
+                        <tr> 
+                            <th> Marca </th>
+                            <th> Modelo </th>
+                            <th> Código </th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td> Motorola </td>
+                            <td> G8 Power </td>
+                            <td> M-G8 </td>
+                        </tr>
+                        <tr>
+                            <td> Samsung </td>
+                            <td> Galaxy A03 </td>
+                            <td> S-GA03 </td>
+                        </tr>
+                        <tr>
+                            <td> Hawuai </td>
+                            <td> P40 </td>
+                            <td> H-P40 </td>
+                        </tr>
+                    </tbody>
+
+                    <tfoot>
+                        <tr> 
+                            <th> Marca </th>
+                            <th> Modelo </th>
+                            <th> Código </th>
+                        </tr>
+                    </tfoot>
+
+                </table>
+
+                <hr> 
+
+                <h2> Segundo Ejemplo </h2>
+                <table>
+                    <thead>
+                        <tr> 
+                            <th colspan="2"> Marca y Modelo </th>                           
+                            <th> Código </th>
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr>
+                            <td> Motorola </td>
+                            <td> G8 Power </td>
+                            <td> M-G8 </td>
+                        </tr>
+                        <tr>
+                            <td> Samsung </td>
+                            <td> Galaxy A03 </td>
+                            <td> S-GA03 </td>
+                        </tr>
+                        <tr>
+                            <td> Hawuai </td>
+                            <td> P40 </td>
+                            <td> H-P40 </td>
+                        </tr>
+                    </tbody>                   
+
+                </table>
+                
+                <hr>
+
+                <h2> Tercer ejemplo </h2>
+            
+                <table>
+                    <tr>
+                        <th> Marca </th>
+                        <td> Modelo </td>
+                        <td> codigo </td>
+                    </tr>
+
+                    <tr>
+                        <th> Motorola </th> 
+                        <td> G8 Power </td> 
+                        <td> M-G8 </td> 
+                    </tr>
+
+                    <tr>
+                        <th> Samsung  </th>
+                        <td> Galaxy A3 </td>
+                        <td> S-GA03 </td>
+                    </tr>
+
+                    <tr>
+                        <th> Huawei  </th>
+                        <td> P40 </td>
+                        <td> H-P40 </td>
+                    </tr>
+
+                </table>
+
+                <hr>
+                <h2> Cuarto ejemplo </h2>
+            
+                <table>
+                    <tr>
+                        <th> Marca </th>
+                        <td> Modelo </td>
+                        <td> codigo </td>
+                    </tr>
+
+                    <tr>
+                        <th> Motorola </th> 
+                        <td> G8 Power </td> 
+                        <td> M-G8 </td> 
+                    </tr>
+
+                    <tr>
+                        <th rowspan="2"> Samsung  </th>
+                        <td> Galaxy A03 </td>
+                        <td> S-GA03 </td>
+                    </tr>
+
+                    <tr>
+                        <!-- <th> Samsung  </th> -->
+                        <td> Galaxy A04 </td>
+                        <td> S-GA04 </td>
+                    </tr>
+
+                    <tr>
+                        <th> Huawei  </th>
+                        <td> P40 </td>
+                        <td> H-P40 </td>
+                    </tr>
+
+                </table>
+            </main>
+        </div>
+        <style>
+            table, td, th {
+                border: 1px solid black;
+            }
+
+            thead {
+                background-color: rgb(202, 103, 176);
+            }
+
+            th {
+                background-color: rgb(205, 60, 50);
+            }
+    </style>
+    </body>
+</html>
